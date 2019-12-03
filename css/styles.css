@@ -1,10 +1,10 @@
 body{
-	background: #A4B5FF;
+	background: #FFFF8C;
 	font-family: 'Open Sans', sans-serif;
 }
 header, section, nav{
     background-color: white;
-    border: 4px solid darkblue;
+    border: 4px solid #FFFF00;
     margin:10px;
 }
 
@@ -14,7 +14,7 @@ header, section, nav{
 }
 
 #titulo h1{
-    font-family: 'Arial';
+    font-family: 'Impact';
     font-size: 100px;
 }
 
@@ -22,6 +22,7 @@ ul{
     display: inline-block;
     list-style: none;
 }
+
 #tiposmusica ul li{
     margin: 20px 20px 80px 20px;
     font-size: 30px;
@@ -36,8 +37,8 @@ main{
 
 article{
     padding: 10px 0px 0px 10px;
-    border-bottom: 2px solid darkblue;
-    border-top: 2px solid darkblue;
+    border-bottom: 2px solid #FFFF00;
+    border-top: 2px solid #FFFF00;
 }
 
 .imagenmusicaytexto{
@@ -86,12 +87,12 @@ nav div{
 }
 
 footer{
-    background-color: darkslategrey;
-    margin: 1% 1% 1% 1%;
+    background-color: #282828;
+    *margin: 1% 1% 1% 1%;
     text-align: center;
     font-size: 10px;
     color:white;
-    border: 4px solid darkblue;
+    *border: 4px solid #FFFF00;
 }
 
 #info a:link, #info a:visited, #info a:active{
