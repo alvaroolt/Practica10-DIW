@@ -66,11 +66,15 @@
         </nav>
         <section>
             <fieldset>
-                <legend>Contáctanos</legend><br />
-                <label for="email">Email</label>
-                <input type="text" name="email" id="email" size="20"><br /><br />
-                <textarea rows="6" cols="60"></textarea>
-                <button input type="submit">ENVIAR</button>
+                <form>
+                    <legend>Contáctanos</legend><br />
+                    <label for="nombre">Nombre</label>
+                    <input type="text" name="nombre" id="nombre" size="20" required><br /><br />
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" size="20" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}" required><br /><br />
+                    <textarea rows="6" cols="60" required></textarea>
+                    <button input type="submit">ENVIAR</button>
+                </form>
             </fieldset>
 
         </section>
