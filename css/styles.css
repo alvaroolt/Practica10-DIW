@@ -126,3 +126,22 @@ fieldset{
 fieldset button{
     margin-left:4%;
 }
+
+.labelsformulario:valid{
+    background-color: #81F26F;
+    *color: white;
+}
+
+.labelsformulario:invalid{
+    background-color: #F26F6F;
+    *color:white;
+}
+
+#svg1{
+    animation-name:anim1;
+}
+
+@keyframes anim1{
+    from {left:0px;}
+    to {left:400px;}
+}
